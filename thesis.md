@@ -1,90 +1,129 @@
-# thesis.md (draft skeleton)
+# Thesis
 
 ## 1. Motivation
 
-Modern systems operate under permanent uncertainty.
+Modern systems operate under persistent uncertainty.
 
-Most failures are not caused by lack of intelligence, but by incorrect assumptions about constraints.
+Most systemic failures are not caused by a lack of intelligence or effort,
+but by incorrect or implicit assumptions about constraints.
 
-This work focuses on how decisions are engineered, not how outcomes are predicted.
+This work is concerned with how decisions are formed and structured,
+not with predicting outcomes or maximizing results.
 
-## 2. Core position
+The focus is on decision logic as an artifact,
+not on performance or success narratives.
 
-Decisions are made under:
+---
 
-* Incomplete information
-* Noisy signals
-* Irreversible consequences
-* Bounded resources
+## 2. Core Position
 
-Therefore, decision systems must be designed around failure modes, not success scenarios.
+Decisions in real systems are made under conditions of:
+
+- Incomplete information
+- Noisy and delayed signals
+- Irreversible consequences
+- Bounded resources
+
+These conditions are not temporary.
+They define the environment in which decision systems exist.
+
+Decision logic is therefore observed primarily through its failure modes,
+not through its intended success paths.
+
+---
 
 ## 3. Uncertainty
 
-Uncertainty is not noise to be removed.
+Uncertainty is not a defect to be removed.
 
-It is a structural property of complex systems.
+It is a structural property of complex systems interacting with reality.
 
-Attempts to eliminate uncertainty usually increase fragility.
+Attempts to eliminate uncertainty often replace it with hidden fragility,
+shifting risk rather than reducing it.
+
+---
 
 ## 4. Constraints
 
-Every real system is constrained by:
+Every real system operates under constraints, including but not limited to:
 
-* Capital
-* Time
-* Information
-* Computation
-* Human behavior
+- Capital
+- Time
+- Information
+- Computation
+- Human behavior
 
-Ignoring constraints does not remove them. It only hides their impact until failure.
+Constraints do not disappear when ignored.
+They remain latent until their effects surface through failure.
+
+---
 
 ## 5. Trade-offs
 
-There are no optimal decisions.
+There are no universally optimal decisions.
 
-There are only acceptable trade-offs.
+There are only trade-offs that are acceptable within a given context.
 
-Optimization without explicit trade-offs produces brittle systems.
+When trade-offs remain implicit,
+systems tend to appear efficient while becoming fragile.
+
+---
 
 ## 6. Implementation
 
-Decision logic must be executable.
+Decision logic exists only insofar as it can be executed.
 
-If a model cannot be implemented, it cannot be trusted.
+Implementation is not a guarantee of correctness,
+but it is a necessary condition for trust.
 
-Implementation exposes hidden assumptions.
+Executable systems expose assumptions
+that remain invisible at the conceptual level.
+
+---
 
 ## 7. Failure
 
-Failure is not an exception.
+Failure is not an anomaly.
 
-It is a signal.
+It is an informational signal produced by the system.
 
-Systems that do not record failure modes repeat them.
+Systems that do not explicitly record and examine failure modes
+tend to reproduce them under changing conditions.
+
+---
 
 ## 8. Scope
 
-Markets, infrastructure, security, automation, and any system where decisions have cost.
+The observations in this work apply to systems
+where decisions have cost and consequences,
+including markets, infrastructure, security, and automation.
 
-This is not domain-specific.
+The focus is not on domain-specific techniques.
 
-Domains are interchangeable; logic is not.
+Domains may vary.
+Decision logic does not.
 
-## 9. Open questions
+---
 
-* How to design systems that degrade gracefully?
-* How to detect regime shifts early?
-* How to encode human judgment into constrained systems?
+## 9. Open Questions
 
-These questions remain open by design.
+Certain questions remain intentionally unresolved:
 
-## 10. Closing note
+- How can systems degrade without collapsing?
+- How can structural regime changes be detected before optimization fails?
+- How can human judgment be encoded without removing accountability?
 
-This document is not final.
+These questions are treated as ongoing constraints,
+not as problems to be solved conclusively.
 
-Changes will be tracked.
+---
+
+## 10. Closing Note
+
+This document represents a working position, not a finished doctrine.
 
 Revisions are expected.
+Changes are tracked.
 
-The goal is clarity, not completeness.
+The goal is clarity of reasoning,
+not completeness or closure.
