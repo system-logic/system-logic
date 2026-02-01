@@ -2,55 +2,72 @@
 
 ## Decision Logic Lab
 
-Applied reasoning about decision systems under uncertainty. Constraints, trade-offs, real implementations.
+This repository is the central workspace of **Decision Logic Lab**.
 
-This repository is a thinking space, not a product. It exists to map technical constraints to decision models and to keep a single source of truth.
+It documents applied reasoning about decision systems under uncertainty —
+how constraints, trade-offs, and real conditions shape architectural and strategic decisions.
 
----
+This is a **thinking space**, not a product.
 
-### What this is
+For scope, boundaries, and responsibility limits, see the manifesto:
 
-* A curated body of notes on how decisions are engineered under uncertainty
-* A place to formalize assumptions, constraints, and trade-offs
-* A long-term laboratory for reasoning, not tutorials or advice
-
-**The focus is not prediction, optimization, or performance chasing.** The focus is robust decision-making under real constraints.
+👉 **[Decision Logic Lab — Manifesto](./MANIFESTO.md)**
 
 ---
 
-### What this is not
+## What this repository is
 
-* Not a framework
-* Not a library
-* Not a trading strategy
-* Not educational content for beginners
-* Not opinions without consequences
+- A curated body of notes on how decisions are engineered under uncertainty
+- A place to formalize assumptions, constraints, and trade-offs
+- A long-term laboratory for reasoning about systems, not for teaching or advising
 
-> If you are looking for ready-made answers, this repository is not intended for you.
-
----
-
-### Core documents
-
-* `thesis.md` — central decision logic and worldview
-* `assumptions.md` — explicit assumptions (temporary, revisable)
-* `constraints.md` — hard limits and unavoidable trade-offs
-* `models/` — abstract models of decision systems
-* `experiments/` — links to real implementations and tests
-* `failures.md` — documented errors and incorrect decisions
+The focus is not prediction, optimization, or performance chasing.  
+The focus is **robust decision-making under real constraints**.
 
 ---
 
-### Working principles
+## What this repository is not
 
-* **Constraints** > ideas
-* **Trade-offs** > optimality
-* **Robustness** > performance
-* **Reasoning** > prediction
-* **One source of truth**
+- Not a framework
+- Not a library
+- Not a trading strategy
+- Not educational content for beginners
+- Not opinions without consequences
+
+If you are looking for ready-made answers or reusable solutions,
+this repository is not intended for that purpose.
 
 ---
 
-### Status
+## Structure and core documents
 
-This repository is intentionally incomplete. It evolves slowly and documents decisions that were made, not just ideas that were explored.
+This repository is intentionally structured as a single source of truth.
+
+- `thesis.md` — central decision logic and worldview
+- `assumptions.md` — explicit assumptions (temporary and revisable)
+- `constraints.md` — hard limits and unavoidable trade-offs
+- `models/` — abstract models of decision systems
+- `experiments/` — links to real implementations and tests
+- `failures.md` — documented errors and incorrect decisions
+
+Each document exists to clarify **why decisions were made**, not to prescribe what others should do.
+
+---
+
+## Working principles
+
+- **Constraints** > ideas  
+- **Trade-offs** > optimality  
+- **Robustness** > performance  
+- **Reasoning** > prediction  
+- **One source of truth**
+
+---
+
+## Status
+
+This repository is intentionally incomplete.
+
+It evolves slowly and documents decisions that were made,
+including revisions, rollbacks, and failures —
+not just ideas that were explored.
