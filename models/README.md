@@ -1,6 +1,6 @@
 # Abstract Models
 
-***M-01: Memory-Optimal Computation
+M-01: Memory-Optimal Computation
 
 This model observes the relationship between physical signal precision
 and numerical representation in computational systems.
